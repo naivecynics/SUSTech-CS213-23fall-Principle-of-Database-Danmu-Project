@@ -1,0 +1,30 @@
+{
+  "groups": [
+    {
+      "name": "benchmark",
+      "type": "io.sustc.benchmark.BenchmarkConfig",
+      "sourceType": "io.sustc.benchmark.BenchmarkConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "benchmark.data-path",
+      "type": "java.lang.String",
+      "description": "Base path for the data files (import + test cases).",
+      "sourceType": "io.sustc.benchmark.BenchmarkConfig"
+    },
+    {
+      "name": "benchmark.report-path",
+      "type": "java.lang.String",
+      "description": "Base path for the generated reports. If not specified, the reports will be generated in the current directory.",
+      "sourceType": "io.sustc.benchmark.BenchmarkConfig"
+    },
+    {
+      "name": "benchmark.student-mode",
+      "type": "java.lang.Boolean",
+      "description": "Indicator for enabling some additional steps that only run in student mode, e.g., truncate tables.",
+      "sourceType": "io.sustc.benchmark.BenchmarkConfig"
+    }
+  ],
+  "hints": []
+}
